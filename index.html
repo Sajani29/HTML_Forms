@@ -11,16 +11,92 @@
         <legend></legend>
     </fieldset>--> 
 
-    <h2 class="text-center text-info m-2">Welcome Order Siri.</h2>
-    <h3 class="text-center text-white">Place your order</h3>
-    <div class="container text-center  mt-5 rounded mt-20 rounded-4">
+    <h2 class="text-center text-bg-success m-2">Welcome Order Siri.</h2>
+   
+    <div class="container text-center  mt-5 mt-20 border border-black rounded-3">
         <div class="row">
             <div class="col-6">
-                    <img class="m-4" src="assets/img5.jpg" alt="">
+                    <img class="m-3 position-relative w-auto rounded-5" src="assets/img5.jpg" alt="">
+                    <img class="m-3 position-relative w-auto rounded-5" src="assets/img3.jpg" alt="">
             </div>
             <div class="col-6">
-                    <div class="container">
-                        <h2 class="align-items-center">Order/Delivery Tracking</h2>
+                    <div class="container ">
+                        <h2 class="align-items-center" >Order/Delivery Tracking</h2>
+                         <p class="text-center text-black">Place your order</p>
+                       
+                           <h4 class="bg-warning" style="text-align: left">Personal Information </h3> 
+                            <hr>
+                            <br>
+                            <div style="display:flex; align-items:center; gap:15px;">
+                                <h5 style="margin:0;">Name:</h5>
+                                <input type="text" placeholder="Enter your name" style="width:250px; height:35px; margin-left: 20px;">
+                            </div>
+                            <br>
+
+                            <div style="display:flex; align-items:center; gap:15px;">
+                                <h5 style="margin:0;">Contact Number:</h5>
+                                <input type="tel" placeholder="Enter your contact number" style="width:250px; height:35px; margin-left: 20px;">
+                            </div>
+                            <br>
+                            <div style="display:flex; align-items:center; gap:15px;">
+                                <h5 style="margin:0;">Email:</h5>
+                                <input type="email" placeholder="Enter your email" style="width:250px; height:35px; position: sticky;">
+                                <br>
+                            </div>
+                            <br>
+                            <br>
+
+                                <h4 class="bg-warning" style="text-align: left">Order Information </h3> 
+                            <hr>
+                            <br>
+                            <div style="display:flex; align-items:center; gap:15px;">
+                                <h5 style="margin:0;">Order ID:</h5>
+                                <input type="text" placeholder="Enter your order Id" style="width:250px; height:35px; margin-left: 20px;">
+                            </div>
+                            <br>
+
+                            <div style="display:flex; align-items:center; gap:15px; ">
+                                <h5 style="margin:0;">Delivery Destination:</h5>
+                                <input type="tel" placeholder="Enter your street address" style="width:250px; height:35px; margin-left: 20px;">
+                            </div>
+                            <br>
+                            <input type="tel" placeholder="Enter your address line 2" style="width:250px; height:35px; margin-left: 88px;">
+                            <br>
+                            <br>
+
+                            <input type="tel" placeholder="Enter your city" style="width:250px; height:35px; margin-left: 88px;">
+                            <br><br>
+
+                            <input type="search" list="country"placeholder="search your counrty" style="width:250px; height:35px; margin-left: 88px;">
+                            <datalist id="country">
+                                <option value="Sri Lanka"></option>
+                                <option value="America"></option>
+                                <option value="Australia"></option>
+                                <option value="Singapoor"></option>
+                                <option value="Canada"></option>
+                                <option value="Europ"></option>
+                                <option value="Pakisthan"></option>
+                                <option value="Nepal"></option>
+                                <option value="Sudi"></option>
+                                <option value="Indunisiya"></option>
+                                <option value="Bangaladesh"></option>
+                                <option value="Rusia"></option>
+                            </datalist>
+                            
+
+                            <br><br>
+                            <div style="display:flex; align-items:center; gap:15px;">
+                                <h5 style="margin:0;">When did you<br>ce your order? </h5>
+                                <input type="date" placeholder="Enter your date" style="width:250px; height:35px;margin-left:84px;">
+                                <br>
+                                <br>
+                            </div>
+
+                            <br><br><br><br>
+                            <div>
+                                <input type="button" value="Click Me" class="bg-primary" >  
+                            </div>
+
                     </div>
             </div>
         </div>
